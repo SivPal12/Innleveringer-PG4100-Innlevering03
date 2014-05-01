@@ -18,3 +18,5 @@ This readme is written for Eclipse Kepler (eclipse-standard-kepler-SR2-win32-x86
 - Add plugin "Maven Integration for Eclipse WTP (Juno) 1.0.1" to eclipse
 
 - Import Maven project in Eclipse
+
+- Edit Eclipse build path for current project to use Java 1.7
