@@ -20,3 +20,8 @@ This readme is written for Eclipse Kepler (eclipse-standard-kepler-SR2-win32-x86
 - Import Maven project in Eclipse
 
 - Edit Eclipse build path for current project to use Java 1.7
+
+
+Sources
+==
+http://kielczewski.eu/2013/11/using-embedded-jetty-spring-mvc/
