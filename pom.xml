@@ -18,6 +18,11 @@
             <artifactId>jetty-webapp</artifactId>
             <version>9.2.0.M0</version>
         </dependency>
+        <dependency>
+            <groupId>org.eclipse.jetty</groupId>
+            <artifactId>jetty-jsp</artifactId>
+            <version>9.2.0.M0</version>
+        </dependency>
         <!-- JAVA -->
         <dependency>
             <groupId>javax.servlet</groupId>
@@ -88,6 +93,11 @@
     </dependencies>
 
     <build>
+        <resources>
+            <resource>
+                <directory>${basedir}/src/main/resources/</directory>
+            </resource>
+        </resources>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
