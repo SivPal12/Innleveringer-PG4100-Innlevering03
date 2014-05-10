@@ -36,7 +36,7 @@ public class App {
         contextHandler.setContextPath(CONTEXT_PATH);
         contextHandler.addServlet(new ServletHolder(new DispatcherServlet(context)), MAPPING_URL);
         contextHandler.addEventListener(new ContextLoaderListener(context));
-        contextHandler.setResourceBase(new ClassPathResource("/").getURI().toString());
+        contextHandler.setResourceBase(new ClassPathResource("webapp").getURI().toString());
         return contextHandler;
     }
 
