@@ -14,12 +14,12 @@ import org.springframework.web.servlet.view.JstlView;
 @EnableWebMvc
 @ComponentScan(basePackages="no.nith.sivpal12.pg4100.controller")
 public class SpringMvcConfiguration extends WebMvcConfigurerAdapter {
-    
+
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
         registry.addResourceHandler("/html/**").addResourceLocations("/html/");
     }
-    
+
     @Bean
     public ViewResolver viewResolver() {
         InternalResourceViewResolver viewResolver = new InternalResourceViewResolver();

@@ -10,7 +10,7 @@
 <h1>Prime checker</h1>
 
 <form>
-	<label>Skriv inn er tall for å sjekke om det er primtall</label>
+	<label>Skriv inn et tall for å sjekke om det er primtall</label>
 	<input name="number" pattern="^[1-9]\d*$" title="Enter positive number"/>
 	<input type="submit" value="Send"/>
 </form>
