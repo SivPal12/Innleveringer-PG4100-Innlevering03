@@ -12,7 +12,7 @@ import org.springframework.web.servlet.view.JstlView;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages="no.nith.sivpal12.pg4100.controller")
+@ComponentScan(basePackages={"no.nith.sivpal12.pg4100.controller", "no.nith.sivpal12.pg4100.services"})
 public class SpringMvcConfiguration extends WebMvcConfigurerAdapter {
 
     @Override
